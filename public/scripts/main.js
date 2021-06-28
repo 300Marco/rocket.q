@@ -36,3 +36,14 @@ function handleClick(event, check = true) {
 
     modal.open();
 };
+
+// Botão para copiar código
+ const buttonCode = document.querySelector(".buttons .button.outlined");
+
+buttonCode.addEventListener('click', function() {
+    const copyCode = document.querySelector('#copyCode');
+    copyCode.select();
+    // copyCode.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Código da sala copiado!");
+});

@@ -6,7 +6,7 @@
 
 ## 💻 Projeto
 
-### Este projeto foi desenvolvido durante a Next Level Week #05 😀
+### Este projeto foi desenvolvido durante a Next Level Week #06 😀
 <br>
 
 O Rocket.q, é uma Aplicação Web, para internautas anônimos fazerem perguntas, onde o criador da sala com seu código, possa gerenciar as perguntas e com posse da senha possa marcar como lidas. Para este objetivo utilizamos algumas tecnologias como EJS, Node.js e outras ferramentas de Desenvolvimento. 

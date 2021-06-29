@@ -200,17 +200,4 @@ main {
     #room .buttons {
         margin: 12px 0;
     }
-
-    /* ---------- MODAL */
-    .modal-wrapper .modal {
-        padding: 64px 12px !important;
-    }
-
-    .modal-wrapper .modal input {
-        width: 80% !important;
-    }
- 
-    button {
-        line-height: initial;
-    }
 }

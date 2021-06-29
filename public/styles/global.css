@@ -22,9 +22,6 @@ html {
     --grey-light: #E5EAF1;
     --grey-medium: #eaecf1;
 
-
-    /* Colors Rocket */
-
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5%; /* 10px */
 }
@@ -58,7 +55,7 @@ body, button, input, textarea {
     border-width: 0;
 }
 
-/* ---------- input and buttons */
+/* ---------- INPUT AND BUTTONS */
 input, button, .button {
     border-radius: 0.8rem;
     height: 5rem;
@@ -73,7 +70,6 @@ button, .button {
     align-items: center;
     justify-content: center;
     
-    /* background: var(--blue); */
     background: var(--purple);
     color: var(--white);
 
@@ -122,7 +118,7 @@ button.grey,
     width: 16.7rem;
 }
 
-/* ---------- Animation */
+/* ---------- ANIMATION */
 .container,
 .button.outlined,
 .button {

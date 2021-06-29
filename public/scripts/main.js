@@ -43,7 +43,6 @@ function handleClick(event, check = true) {
 buttonCode.addEventListener('click', function() {
     const copyCode = document.querySelector('#copyCode');
     copyCode.select();
-    // copyCode.setSelectionRange(0, 99999)
     document.execCommand("copy");
     alert("Código da sala copiado!");
 });

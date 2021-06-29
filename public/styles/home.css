@@ -48,7 +48,7 @@ input, button, .button {
     margin-bottom: 1.8rem;
 }
 
-/* ---------- Separator Line */
+/* ---------- SEPARATOR LINE */
 .separator {
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ input, button, .button {
     height: 1px;
 }
 
-/* ---------- Create balls */
+/* ---------- CREATE BALLS */
 .ball {
     width: 21.2rem;
     height: 21.2rem;

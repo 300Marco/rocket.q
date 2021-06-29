@@ -50,7 +50,7 @@ Copiar código da sala criada e entrando na sala
     <img src="./github/mobile.gif" />
 </p>
 <p align="center">
-Criando salas e perguntas
+Versão mobile
 </p>
 
 <br>

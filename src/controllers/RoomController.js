@@ -55,6 +55,10 @@ module.exports = {
     enter(request, response) {
         const roomId = request.body.roomId;
 
-        response.redirect(`/room/${roomId}`);
-    }
+        if(roomId == "") {
+             response.redirect("/");
+        } else {
+            response.redirect(`/room/${roomId}`);
+        }
+    },
 };

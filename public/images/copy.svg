@@ -1,4 +1,12 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.6667 7.5H9.16667C8.24619 7.5 7.5 8.24619 7.5 9.16667V16.6667C7.5 17.5871 8.24619 18.3333 9.16667 18.3333H16.6667C17.5871 18.3333 18.3333 17.5871 18.3333 16.6667V9.16667C18.3333 8.24619 17.5871 7.5 16.6667 7.5Z" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.16675 12.5H3.33341C2.89139 12.5 2.46746 12.3244 2.1549 12.0118C1.84234 11.6993 1.66675 11.2754 1.66675 10.8333V3.33332C1.66675 2.8913 1.84234 2.46737 2.1549 2.15481C2.46746 1.84225 2.89139 1.66666 3.33341 1.66666H10.8334C11.2754 1.66666 11.6994 1.84225 12.0119 2.15481C12.3245 2.46737 12.5001 2.8913 12.5001 3.33332V4.16666" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#8257E5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path class="st0" d="M16.7,7.5H9.2c-0.9,0-1.7,0.7-1.7,1.7v7.5c0,0.9,0.7,1.7,1.7,1.7h7.5c0.9,0,1.7-0.7,1.7-1.7V9.2
+	C18.3,8.2,17.6,7.5,16.7,7.5z"/>
+<path class="st0" d="M4.2,12.5H3.3c-0.4,0-0.9-0.2-1.2-0.5c-0.3-0.3-0.5-0.7-0.5-1.2V3.3c0-0.4,0.2-0.9,0.5-1.2s0.7-0.5,1.2-0.5h7.5
+	c0.4,0,0.9,0.2,1.2,0.5c0.3,0.3,0.5,0.7,0.5,1.2v0.8"/>
 </svg>

@@ -12,6 +12,7 @@ html {
     --red: #E83F5B;
     --light-blue: #E0ECFF;
     --blue: #3485FF;
+    --purple: #8257e5;
     --background: #FBFCFF;
     --overlay: #040911;
     --icons-details: #A5B0C1;
@@ -20,6 +21,9 @@ html {
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
     --grey-medium: #eaecf1;
+
+
+    /* Colors Rocket */
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5%; /* 10px */
@@ -69,7 +73,8 @@ button, .button {
     align-items: center;
     justify-content: center;
     
-    background: var(--blue);
+    /* background: var(--blue); */
+    background: var(--purple);
     color: var(--white);
 
     cursor: pointer;
@@ -89,8 +94,10 @@ button > img,
 button.outlined,
 .button.outlined {
     background: var(--white);
-    color: var(--blue);
-    border: 0.2rem solid var(--blue);
+    /* color: var(--blue); */
+    color: var(--purple);
+    /* border: 0.2rem solid var(--blue); */
+    border: 0.2rem solid var(--purple);
 }
 
 button.red, 
@@ -113,4 +120,38 @@ button.grey,
 
 .content header img {
     width: 16.7rem;
+}
+
+/* ---------- Animation */
+.container,
+.button.outlined,
+.button {
+    animation: home 500ms ease-in-out;
+}
+
+@keyframes home {
+    0% {
+        opacity: 0;
+        transform:translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#question-form,
+#questions {
+    animation: room 800ms ease-in-out;
+}
+
+@keyframes room {
+    0% {
+        opacity: 0;
+        transform:translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

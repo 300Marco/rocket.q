@@ -107,7 +107,7 @@ main {
 }
 
 .question-wrapper .question-content .user {
-    background: var(--blue);
+    background: var(--purple);
     clip-path: circle();
     padding: 1.4rem;
 }

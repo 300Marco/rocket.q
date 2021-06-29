@@ -74,7 +74,7 @@ input, button, .button {
 .ball {
     width: 21.2rem;
     height: 21.2rem;
-    background: var(--blue);
+    background: var(--purple);
     clip-path: circle();
     opacity: 0.1;
 

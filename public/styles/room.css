@@ -39,7 +39,7 @@ main {
     height: 2rem;
 }
 
-/* ---------- Question Form */
+/* ---------- QUESTION FORM */
 #question-form h2{
     font-family: 'Poppins', sans-serif;
     font-size: 2.8rem;
@@ -93,7 +93,7 @@ main {
     line-height: 2.4rem;
 }
 
-/* ---------- Questions */
+/* ---------- QUESTIONS */
 .question-wrapper {
     background: var(--light-blue);
     margin-bottom: 0.8rem;
@@ -139,7 +139,7 @@ main {
     margin-left: 2.4rem;
 }
 
-/* ---------- Question Read */
+/* ---------- QUESTION READ */
 .question-wrapper.read {
     background: var(--grey-medium);
 }
@@ -148,7 +148,7 @@ main {
     background: var(--grey-blue);
 }
 
-/* ---------- Questions */
+/* ---------- QUESTIONS */
 .no-questions {
     text-align: center;
     margin-top: 5.2rem;
@@ -171,4 +171,46 @@ main {
     font-weight: 400;
     margin-top: 1.3rem;
     line-height: 1.9rem;
+}
+
+/* ---------- RESPONSIVE */
+@media only screen and (max-width: 640px) {
+    #room header {
+        display: initial;
+    }
+
+    #room header a:nth-child(1) img {
+        margin: 36px 0 0 0;
+    }
+
+    #room .buttons {
+        margin: 12px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #room header {
+        display: initial;
+    }
+
+    #room header a:nth-child(1) img {
+        margin: 18px 0 0 0px;
+    }
+
+    #room .buttons {
+        margin: 12px 0;
+    }
+
+    /* ---------- MODAL */
+    .modal-wrapper .modal {
+        padding: 64px 12px !important;
+    }
+
+    .modal-wrapper .modal input {
+        width: 80% !important;
+    }
+ 
+    button {
+        line-height: initial;
+    }
 }

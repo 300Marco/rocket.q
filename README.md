@@ -21,7 +21,7 @@ Durante a semana em que avançamos novos conceitos e formas de chegar aos result
     <img src="./github/criarSalaEPerguntas.gif" />
 </p>
 <p align="center">
-Criando salas e perguntas
+Criando sala e perguntas
 </p>
 
 <br>
@@ -72,7 +72,7 @@ Criando salas e perguntas
 ### Realize um clone do projeto
 
 ```bash
-$ git@github.com:300Marco/nlw05-podcastr.git
+$ git clone git@github.com:300Marco/rocket.q.git
 ```
 
 ### Próximos passos
@@ -81,11 +81,8 @@ $ git@github.com:300Marco/nlw05-podcastr.git
 # Instalação das dependências
 $ npm install
 
-# Execute o servidor back-end / simulação
-$ npm run server
-
 # Execute o projeto
-$ npm run dev
+$ npm start
 ```
 
 ## 📃 Licença
